@@ -1,22 +1,19 @@
-body{
-    font-family: fantasy;
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+ */
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
 footer{
 	font-weight: bolder;
-	font-family: Georgia, serif;
+	
 	font-size: small;
 }
-
-
-
-* {
-	border: 1px;
-
-	padding: 2px;
-
-}
-
 
 
 .container {
@@ -31,18 +28,19 @@ footer{
 
 header{
 	grid-column: 1/2;
+	margin-top: 20px;
 }
 
 
 aside {
 	grid-column: 2/4;
 	align-self: end;
-	font-size: small;
-	line-height: 1.0;
+	line-height: 1.3em;
 }
 
 img {
 	grid-column: 1/2;
+	margin-left: 40px;
 }
 
 main{
@@ -60,7 +58,11 @@ nav{
 section{
 	display: block;
 	grid-column: 1/4;
+	line-height: 1.8em;
+	margin-bottom: 30px;
+	
 }
+
 
 
 
@@ -82,6 +84,7 @@ nav a{
 aside ul{
 	list-style-type: none;
 	font-style: italic;
+	font-size: 18px;
 	margin-bottom: 5px;
 }
 
@@ -107,30 +110,14 @@ header h1{
 	left:-81px;
 	font-size: 27px;
 	color: black;
+
+	font-family: 'Abril Fatface', cursive;
 }
 
-header h2{
-	transform: rotate(-90deg);
-	position: absolute;
-	z-index: 100;
-	top:87px;
-	left:-81px;
-	font-size: 27px;
-	color: black;
+.align-fix{
+	left: -99px;
+	top: 70px;
 }
-
-header h3{
-	transform: rotate(-90deg);
-	position: absolute;
-	z-index: 100;
-	top:55px;
-	left:-106px;
-	font-size: 27px;
-	color: black;
-}
-
-
-
 
 
 
